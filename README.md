@@ -79,6 +79,9 @@ when installed plugin .then where you use plugin here simply require this plugin
   </code>
 </pre>
 
+if you want to show ouput you can type command prompt :-
+<pre><code>node app.js</code></pre>
+
 if you have to delete node_modules folder then your plugin dependence are not working . but package.json file already store my plugin information . so no problem but again install those plugin . so you write simply :
 
 <pre><code>npm install</code></pre>

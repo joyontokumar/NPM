@@ -40,7 +40,26 @@ default normal information then you can write our command prompt
 
 <pre><code>npm init -y </code></pre>
 
-y stand for yes . then we see our project directory a file this name package.json. i will disscuse later this file.
+y stand for yes . then we see our project directory a file this name package.json. then we can see package.json file look like this.
+
+<pre>
+  <code>
+    {
+  "name": "my-new-project",
+  "version": "1.0.0",
+  "description": "My New Project description.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://example.com/your-username/my-new-project",
+    "type": "git"
+  },
+  "author": "Your Name <you@example.com>",
+  "license": "MIT"
+}
+  </code>
+</pre>
+
+
 
 <b>How to use your project javascript library : </b>
 suppose we want to use a javascipt library our project.so what we do. we can easily do this. just open your command prompt and write

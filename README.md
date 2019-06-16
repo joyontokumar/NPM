@@ -19,7 +19,11 @@ many other developer to develop many kind of program for other develop to develo
 <b>Project Setup : </b>
 ok ! now we create a project . fist of all go the desktop and create a folder and folder name is suppose myproject. then we want to initalise your node js. so we can write our command prompt
 
-<li>npm inti</li>
+<pre><code>npm init</code></pre>
+
+
+
+
 when you type this command then we can see the command put to some information. it easy. if you avoaid this process information and set
 default normal information then you can write our command prompt 
 

@@ -27,23 +27,25 @@ ok ! now we create a project . fist of all go the desktop and create a folder an
 when you type this command then we can see the command put to some information. it easy. if you avoaid this process information and set
 default normal information then you can write our command prompt 
 
-<li>npm init -y </li>
+<pre><code>npm init -y </code></pre>
+
 y stand for yes . then we see our project directory a file this name package.json. i will disscuse later this file.
 
 <b>How to use your project javascript library : </b>
 suppose we want to use a javascipt library our project.so what we do. we can easily do this. just open your command prompt and write
 javascritp library name see
 
-<li>npm install unserscore --save</li>
+<pre><code>npm install unserscore --save</code></pre>
+
 when completely done this plugin then we can see our project directory package.json file added a new text inside the package.json file.there are a new text added like dependence and inside underscore something like this. and added root directory a folder node_modules . node_modules use my plugin which thirt party library dependenecy here are all kind of code.
 
 when install plugin .then where you use plugin here simply import this plugin.  if you have to delete node_modules folder then your plugin dependence are not working . but package.json file already store my plugin information . so no problem but again install those plugin . so you write simply :
 
-<li>npm install</li>
+<pre><code>npm install</code></pre>
 
 <b>NPM Dependency : </b>
 there are 3 kinds of dependency, but we always use two dependency.
-1. dependencies
+1.dependencies
 2.devDependencies
 3.perDependencies
 
@@ -55,8 +57,8 @@ when any plugin just only enable your project still when you develop the project
 
 <b>Describe Package :</b>
 you can install a package globally or locally. 
-<li>Global Mode :  npm install uglify-js --global</li>
-<li>show how many package are install globally : npm list --global</li>
+<pre><code>Global Mode :  npm install uglify-js --global</code></pre>
+<pre><code>show how many package are install globally : npm list --global</code></pre>
 <h5>note : when you install your package globally we can available this plugin you command prompt. </h5>
 
 <b>package.json : </b>
@@ -66,38 +68,42 @@ we can see this file two things
 
 <b>How to uninstall local package :  </b>
 you you want to uninstall your local package then you can write your command prompt
-<li>npm uninstall underscore</li>
+
+<pre><code>npm uninstall underscore</code></pre>
+
 then you can see your package.json file you can not find the underscore package.
 
 <b>Install a specific version : </b>
 if you want to use underscore package to specific version. then we can write
-<li>npm install underscore@1.9.0</li>
+
+<pre><code>npm install underscore@1.9.0</code></pre>
+
 then you can check package.josn file we this specific version here.
 
 <b>How to update package : </b>
 first of all we want to check those plugin have to update version yes or not. if the version are available
 then update . first check yes or no
-<li>npm outdated</li>
+<pre><code>npm outdated</code></pre>
 
 if the version are available then update
-<li>npm update underscore</li>
+<pre><code>npm update underscore</code></pre>
 
 <b>Short Technique (Alliases) : </b>
-<li>npm i underscore (install local package)</li>
+<pre><code>npm i underscore (install local package)<code></pre>
 <li>npm i -g underscore (install package globally)</li>
-<li>npm un  underscore (uninstall local package)</li>
-<li>npm up (npm package update)</li>
-<li>npm ls (list installed modules)</li>
-<li>npm help (all npm command show here)</li>
-<li>npm view underscore (details package inforamtion)</li>
+<pre><code>npm un  underscore (uninstall local package)</code></pre>
+<pre><code>npm up (npm package update)</code></pre>
+<pre><code>npm ls (list installed modules)</code></pre>
+<pre><code>npm help (all npm command show here)</code></pre>
+<pre><code>npm view underscore (details package inforamtion)</code></pre>
 
 <h5>note : at a time we can install multiple package.</h5>
-<li>npm i express moment lodash mongoose</li>
+<pre><code>npm i express moment lodash mongoose</code></pre>
 
 <b>When use --save and --save-dev :</b>
-<li>npm install underscore --save</li>
+<pre><code>npm install underscore --save</code></pre>
 that means this package higly depend our project. if you delete this package we will not run my project.
-<li>npm install underscore --save-dev</li>
+<pre><code>npm install underscore --save-dev</code></pre>
 that means this package only enable the development part. not need to production part.
 
 

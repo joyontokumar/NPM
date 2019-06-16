@@ -89,8 +89,9 @@ if the version are available then update
 <pre><code>npm update underscore</code></pre>
 
 <b>Short Technique (Alliases) : </b>
+
 <pre><code>npm i underscore (install local package)<code></pre>
-<li>npm i -g underscore (install package globally)</li>
+<pre><code>npm i -g underscore (install package globally)</code></pre>
 <pre><code>npm un  underscore (uninstall local package)</code></pre>
 <pre><code>npm up (npm package update)</code></pre>
 <pre><code>npm ls (list installed modules)</code></pre>

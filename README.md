@@ -90,7 +90,7 @@ if the version are available then update
 
 <b>Short Technique (Alliases) : </b>
 
-<pre><code>npm i underscore (install local package)<code></pre>
+<pre><code>npm i underscore (install local package)</code></pre>
 <pre><code>npm i -g underscore (install package globally)</code></pre>
 <pre><code>npm un  underscore (uninstall local package)</code></pre>
 <pre><code>npm up (npm package update)</code></pre>

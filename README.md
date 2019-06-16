@@ -24,7 +24,18 @@ ok ! now we create a project . fist of all go the desktop and create a folder an
 
 
 
-when you type this command then we can see the command put to some information. it easy. if you avoaid this process information and set
+when you type this command then we can see the command put to some information. it easy and the information you have to put like
+<pre><code>
+name (my-new-project):
+version (1.0.0):
+description:
+entry point (index.js):
+git repository:
+author:
+license (MIT):
+</code></pre>
+
+. if you avoaid this process information and set
 default normal information then you can write our command prompt 
 
 <pre><code>npm init -y </code></pre>

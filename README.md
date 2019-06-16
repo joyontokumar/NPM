@@ -69,7 +69,17 @@ javascritp library name see
 
 when completely done this plugin then we can see our project directory package.json file added a new text inside the package.json file.there are a new text added like dependence and inside underscore something like this. and added root directory a folder node_modules . node_modules use my plugin which thirt party library dependenecy here are all kind of code.
 
-when install plugin .then where you use plugin here simply import this plugin.  if you have to delete node_modules folder then your plugin dependence are not working . but package.json file already store my plugin information . so no problem but again install those plugin . so you write simply :
+when installed plugin .then where you use plugin here simply require this plugin. i want to require this package app.js file like:-
+
+<pre>
+  <code>
+    var lodash = require('lodash');
+    var output = lodash.without([1, 2, 3], 1);
+    console.log(output);
+  </code>
+</pre>
+
+if you have to delete node_modules folder then your plugin dependence are not working . but package.json file already store my plugin information . so no problem but again install those plugin . so you write simply :
 
 <pre><code>npm install</code></pre>
 

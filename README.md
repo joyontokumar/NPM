@@ -109,20 +109,15 @@ that means this package only enable the development part. not need to production
 
 
 <b>Version package.json : </b>
-you can see this file version text and also can see the version type like 8.9.4 that means 3 digit. 
-
-<h3>patch 4 : </h3>
-patch or debugh. that means some debuging when updated change this patch version
-
-<h3>minor 9</h3>
-someting software change like api related change. then minor version change
-
-<h3>major 8</h3>
-almost hold system are change then change this version.
-
-<h3>carrat(^)</h3>
-that means when any body use the lastest minior version updated.
-
+<pre>you can see this file version text and also can see the version type like 8.9.4 that means 3 digit. </pre>
+<h4>patch 4 : </h4>
+<pre>patch or debugh. that means some debuging when updated change this patch version</pre>
+<h4>minor 9</h4>
+<pre>someting software change like api related change. then minor version change</pre>
+<h4>major 8</h4>
+<pre>almost hold system are change then change this version.</pre>
+<h4>carrat(^)</h4>
+<pre>that means when any body use the lastest minior version updated.</pre>
 
 
 

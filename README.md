@@ -6,7 +6,7 @@ that means there are a lot of code like javascript.
 
 <b>Package : </b>
 when one or more javascript are boundle in one thing that called package. that means if you want to a javascritp plugin then you create a
-seperate seperate file to easy way to handle your project. then your project is completed then you can boundle this seperate seperate file
+seperate seperate file to easy way to handle your project. when your project is completed then you can boundle this seperate seperate file
 in one folder that called a package.
 
 <b>Manager : </b>

@@ -110,7 +110,7 @@ we can see this file two things
 2. script (run the specfic package)
 
 <b>How to uninstall local package :  </b>
-you you want to uninstall your local package then you can write your command prompt
+you want to uninstall your local package then you can write your command prompt
 
 <pre><code>npm uninstall underscore</code></pre>
 
